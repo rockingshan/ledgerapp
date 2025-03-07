@@ -23,13 +23,7 @@ Database: SQLite
 Frontend: HTML, CSS (custom styling)
 Server: PHP’s built-in development server
 Project Structure
-text
 
-Collapse
-
-Wrap
-
-Copy
 /ledger-app
   /db
     ledger.db          # SQLite database file
@@ -51,24 +45,9 @@ A web browser (e.g., Chrome, Firefox)
 Git (optional, for cloning)
 Installation
 Clone the Repository (if using Git):
-bash
 
-Collapse
-
-Wrap
-
-Copy
-git clone https://github.com/yourusername/ledger-app.git
-cd ledger-app
 Or download and extract the project files manually.
 Start the PHP Server:
-bash
-
-Collapse
-
-Wrap
-
-Copy
 php -S localhost:8000 -t public
 Access the App:
 Open your browser and go to http://localhost:8000/login.php.
